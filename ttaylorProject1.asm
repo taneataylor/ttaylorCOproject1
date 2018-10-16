@@ -11,3 +11,11 @@
 	syscall
 	addi $a0, $a0, 6 # 8 (56)
 	syscall
+	addi $a0, $a0, -3 # 5 (53)
+	syscall
+	addi $a0, $a0, -3 # 2 (50)
+	syscall
+	addi $a0, $a0, 3 # 5 (53)
+	syscall
+	addi $a0, $a0, -3 # 2 (50)
+	syscall
