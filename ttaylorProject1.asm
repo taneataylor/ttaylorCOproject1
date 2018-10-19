@@ -26,6 +26,12 @@
 	addi $a0, $a0, -42 # LF (10)
 	syscall
 	
-	li $v0, 10
+	li $v1, 10
 	addi $a0, $a0, 74 # T (84)
+	syscall
+	addi $a0, $a0, 13 # A (97)
+	syscall
+	addi $a0, $a0, 23 # N (110)
+	syscall
+	addi $a0, $a0, -9 # E (101)
 	syscall
