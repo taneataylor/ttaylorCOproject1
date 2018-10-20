@@ -35,3 +35,10 @@
 	syscall
 	addi $a0, $a0, -9 # E (101)
 	syscall
+	addi $a0, $a0, -4 # A (97)
+	syscall
+	# COMMA
+	addi $a0, $a0, -13 # T (84)
+	syscall
+	addi $a0, $a0, 13 # A (97)
+	syscall
