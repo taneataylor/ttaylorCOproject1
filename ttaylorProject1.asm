@@ -42,3 +42,9 @@
 	syscall
 	addi $a0, $a0, 13 # A (97)
 	syscall
+	addi $a0, $a0, -8 # Y (89)
+	syscall
+	addi $a0, $a0, -13 # L(76)
+	syscall
+	addi $a0, $a0, 3 # O (79)
+	syscall
