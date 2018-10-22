@@ -31,20 +31,24 @@
 	syscall
 	addi $a0, $a0, 13 # A (97)
 	syscall
-	addi $a0, $a0, 23 # N (110)
+	addi $a0, $a0, 13 # N (110)
 	syscall
 	addi $a0, $a0, -9 # E (101)
 	syscall
 	addi $a0, $a0, -4 # A (97)
 	syscall
 	# COMMA
-	addi $a0, $a0, -13 # T (84)
+	addi $a0, $a0, -53 #, (44)
+	syscall 
+	addi $a0, $a0, 40 # T (84)
 	syscall
 	addi $a0, $a0, 13 # A (97)
 	syscall
-	addi $a0, $a0, -8 # Y (89)
+	addi $a0, $a0, 24 # Y (121)
 	syscall
-	addi $a0, $a0, -13 # L(76)
+	addi $a0, $a0, -13 # L(108)
 	syscall
-	addi $a0, $a0, 3 # O (79)
+	addi $a0, $a0, 3 # O (111)
+	syscall
+	addi $a0, $a0, 3 # R (114)
 	syscall
