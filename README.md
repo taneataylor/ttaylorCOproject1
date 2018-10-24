@@ -1,7 +1,6 @@
 # ttaylotCOproject1
 
 README
-MIPS Student Info
 
 Print first name, last name, id number using MIPS.
 
